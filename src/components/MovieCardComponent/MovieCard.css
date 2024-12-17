@@ -1,0 +1,38 @@
+.movie-card {
+    width: 300px; /* Set a fixed width for the card */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.movie-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.movie-image {
+    width: 100%;
+    height: auto;
+}
+
+.movie-info {
+    padding: 0.5rem;
+    background-color: #f8f8f8;
+    text-align: left; /* Align text to the left */
+    font-family: 'Lexend', sans-serif; /* Apply Lexend font */
+}
+
+.movie-info h3 {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.movie-info p {
+    margin: 0.2rem 0;
+    font-size: 0.9rem;
+    color: #555;
+}

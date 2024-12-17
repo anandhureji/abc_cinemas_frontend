@@ -1,0 +1,19 @@
+.movies-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movies-list-container {
+    background-color: #EBF9F8; /* Set the background color */
+    padding: 4rem 1rem 1rem 1rem;
+    padding-bottom: 6rem;
+    text-align: center; /* Center align the text */
+}
+
+.now-showing {
+    font-family: 'Lexend', sans-serif; /* Apply Lexend font */
+    font-size: 2rem; /* Adjust the font size as needed */
+    margin-bottom: 2rem; /* Add some space below the heading */
+    color: #333; /* Set the text color */
+}

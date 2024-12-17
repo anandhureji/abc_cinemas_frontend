@@ -1,0 +1,25 @@
+.movie-slider {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.slider-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-image {
+    width: 100px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.slick-dots li button:before {
+    color: #fff;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #fff;
+}
